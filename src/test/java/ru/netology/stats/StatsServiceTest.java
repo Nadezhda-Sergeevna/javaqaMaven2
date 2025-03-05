@@ -43,7 +43,7 @@ public class StatsServiceTest {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
-        long expected = 8;
+        long expected = 9;
         long actual = service.monthMinimumSale(sales);
 
         Assertions.assertEquals(expected, actual);
